@@ -57,15 +57,61 @@ img{
 .menu{
     max-width: 960px;
     margin: 0 auto;
-    padding-top: 15 0;
+    padding: 15px 0;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu a{
     color: #ffffff;
 }
 
-.menu-logo {
+.menu-logo a{
+    font-size: 2.5em;
+    margin: 0 10px;
+}
 
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a{
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+
+.menu-nav a:hover{
+    color: #122ab2;
+}
+
+/* Introdução */
+
+.introducao{
+    font-size: 3em;
+    line-height: 1em;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+}
+
+.sobre{
+    max-width: 960px;
+    border-top: 2px solid #122ab2;
+    border-bottom: 2px solid #122ab2;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-info{
+    flex: 2;
+    margin: 0 10px;
+}
+
+.sobre-info h1{
+    font-size: 3em;
 }
