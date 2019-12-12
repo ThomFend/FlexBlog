@@ -1,117 +1,668 @@
 body, h1, p, ul, li, a{
+    /* Position */
+
+    /* Modelo de Caixa */
     margin: 0px;
     padding: 0px;
+
+    /* Display */
+
+    /* Outros */
 }
 
 body{
+    /* Position */
+
+    /* Modelo de Caixa */
+
+    /* Display */
+
+    /* Outros */
     font-family: "Nunito", Helvetica, sans-serif;
 }
 
 ul{
+    /* Position */
+
+    /* Modelo de Caixa */
+
+    /* Display */
+
+    /* Outros */
     list-style: none;
 }
 
 a{
+    /* Position */
+
+    /* Modelo de Caixa */
+
+    /* Display */
+
+    /* Outros */
     text-decoration: none;
 }
 
 img{
-    display: block;
+    /* Position */
+
+    /* Modelo de Caixa */
     max-width: 100%;
+
+    /* Display */
+    display: block;
+
+    /* Outros */
 }
 
 *{
+    /* Position */
+
+    /* Modelo de Caixa */
     box-sizing: border-box;
+
+    /* Display */
+
+    /* Outros */
 }
 
 /* Superinfo */
 
 .superinfo-bg{
-    background: #122ab2;
+    /* Position */
+
+    /* Modelo de Caixa */
+
+    /* Display */
+
+    /* Outros */
     color: #ffffff;
+    background: #122ab2;
 }
 
+
 .superinfo{
-    max-width: 960px;
+    /* Position */
+
+    /* Modelo de Caixa */
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+    max-width: 960px;
     padding-top: 10px;
+
+    /* Display */
+    display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+
+    /* Outros */
 }
 
 .superinfo p, .superinfo a{
+    /* Position */
+
+    /* Modelo de Caixa */
     margin: 0px 10px 10px 10px;
+
+    /* Display */
+
+    /* Outros */
 }
 
 .superinfo a{
+    /* Position */
+
+    /* Modelo de Caixa */
+
+    /* Display */
+
+    /* Outros */
     color: #ffffff;
 }
 
 /* Menu */
 
 .menu-bg{
+    /* Outros */
     background: #2c70ff;
 }
 
 .menu{
-    max-width: 960px;
+    /* Position */
+    align-items: center;
+
+    /* Modelo de Caixa */
     margin: 0 auto;
     padding: 15px 0;
+    max-width: 960px;
+
+    /* Display */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+
+    /* Outros */
 }
 
 .menu a{
+    /* Outros */
     color: #ffffff;
 }
 
 .menu-logo a{
-    font-size: 2.5em;
+    /* Position */
+
+    /* Modelo de Caixa */
     margin: 0 10px;
+
+    /* Display */
+
+    /* Outros */
+    font-size: 2.5em;
 }
 
 .menu-nav ul{
+    /* Position */
+
+    /* Modelo de Caixa */
+
+    /* Display */
     display: flex;
     flex-wrap: wrap;
+
+    /* Outros */
 }
 
 .menu-nav a{
-    font-size: 1.25em;
-    display: block;
+    /* Position */
+
+    /* Modelo de Caixa */
     padding: 10px;
+
+    /* Display */
+    display: block;
+
+    /* Outros */
+    font-size: 1.25em;
 }
 
 .menu-nav a:hover{
+    /* Outros */
     color: #122ab2;
 }
 
 /* Introdução */
 
 .introducao{
+    /* Position */
+
+    /* Modelo de Caixa */
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 60px 10px;
+
+    /* Display */
+
+    /* Outros */
     font-size: 3em;
     line-height: 1em;
-    max-width: 960px;
+}
+
+.introducao{
+    /* Position */
+
+    /* Modelo de Caixa */
     margin: 0 auto;
+    max-width: 960px;
     padding: 60px 10px;
+
+    /* Display */
+
+    /* Outros */
+    font-size: 3em;
+    line-height: 1em;
 }
 
 .sobre{
+    /* Position */
+
+    /* Modelo de Caixa */
+    margin: 0 auto;
+    padding: 60px 0;
     max-width: 960px;
     border-top: 2px solid #122ab2;
     border-bottom: 2px solid #122ab2;
+
+    /* Display */
+    display: flex;
+    flex-wrap: wrap;
+
+    /* Outros */
+}
+
+.sobre-info{
+    /* Position */
+
+    /* Modelo de Caixa */
+    margin: 0 10px;
+
+    /* Display */
+    flex: 2 1 300px;
+
+    /* Outros */
+}
+
+.sobre-info h1{
+    /* Position */
+
+    /* Modelo de Caixa */
+
+    /* Display */
+    margin-bottom: 0.5em;
+
+    /* Outros */
+    font-size: 3em;
+}
+
+.sobre-info p{
+    /* Position */
+
+    /* Modelo de Caixa */
+    margin-bottom: 1em;
+
+    /* Display */
+
+    /* Outros */
+    line-height: 1.4;
+    color: #7c7c7c;
+    font-size: 1.25em ;
+}
+
+.sobre-img{
+    /* Position */
+
+    /* Modelo de Caixa */
+    margin: 10px;
+
+    /* Display */
+    flex: 1 1 160px;
+
+    /* Outros */
+}
+
+/* Produtos */
+
+.produtos{
+    /* Position */
+
+    /* Modelo de Caixa */
+    max-width: 960px;
+    margin: 60px auto;
+
+    /* Display */
+
+    /* Outros */
+}
+
+.produtos h1{
+    /* Position */
+
+    /* Modelo de Caixa */
+    margin: 0 10px 60px 10px;
+
+    /* Display */
+
+    /* Outros */
+    font-size: 3em;
+}
+
+.produtos-container{
+    /* Position */
+    
+    /* Modelo de Caixa */
+    
+    /* Display */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    
+    /* Outros */
+}
+
+.produtos-item {
+    /* Position */
+
+    /* Modelo de Caixa */
+    margin: 10px;
+
+    /* Display */
+    flex: 1 1 175px;
+
+    /* Outros */
+}
+
+.produtos-item h2{
+    /* Position */
+
+    /* Modelo de Caixa */
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 60px 20px;
+
+    /* Display */
+
+    /* Outros */
+    font-size: 3em;
+    color: #a4a4a4;
+    background: #f7f7f7;
+}
+
+.purple{
+    /* Position */
+
+    /* Modelo de Caixa */
+    border-top: 8px solid #ae81ff;
+
+    /* Display */
+
+    /* Outros */
+}
+.pink{
+    /* Position */
+
+    /* Modelo de Caixa */
+    border-top: 8px solid #f9265e;
+
+    /* Display */
+
+    /* Outros */
+}
+.blue{
+    /* Position */
+
+    /* Modelo de Caixa */
+    border-top: 8px solid #66d9eb;
+
+    /* Display */
+
+    /* Outros */
+}
+
+/* Preco */
+
+.preco {
+    /* Position */
+    
+    /* Modelo de Caixa */
+    padding: 60px;
+    
+    /* Display */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+
+    /* Outros */
+    background: #f7f7f7;
+}
+
+.preco-item{
+    /* Position */
+
+    /* Modelo de Caixa */
+    margin: 10px;
+    padding: 20px;
+    border: 4px solid #ffffff;
+    
+    /* Display */
+    flex: 1 1 260px;
+
+    /* Outros */
+}
+
+.preco-item h2{
+    /* Position */
+    
+    /* Modelo de Caixa */
+    margin-top: 20px;
+    
+    /* Display */
+    
+    /* Outros */
+    font-size: 3em;
+    color: #c8c8c8;
+    text-align: center;
+}
+
+.preco-item span{
+    /* Position */
+    
+    /* Modelo de Caixa */
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px 0 5px 0;
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    
+    /* Display */
+    display: block;
+    
+    /* Outros */
+    font-size: 3em;
+    text-align: center;
+}
+
+.preco-item sup{
+    /* Position */
+
+    /* Modelo de Caixa */
+
+    /* Display */
+
+    /* Outros */
+    font-size: 1.5rem;
+}
+
+.preco-item ul{
+    /* Position */
+
+    /* Modelo de Caixa */
+    max-width: 300px;
+    margin: 20px auto;
+
+    /* Display */
+
+    /* Outros */
+    color: #7c7c7c;
+    font-size: 1.25em;
+    font-style: italic;
+}
+
+.preco-item li{
+    /* Position */
+    align-items: center;
+    justify-content: space-between;
+
+    /* Modelo de Caixa */
+    margin-bottom: 15px;
+
+    /* Display */
+    display: flex;
+
+    /* Outros */
+}
+
+.preco-item li::after{
+    /* Position */
+
+    /* Modelo de Caixa */
+    width: 6px;
+    height: 6px;
+    
+    /* Display */
+    display: block;
+    
+    /* Outros */
+    content:'';
+    border-radius:50%;
+    background-color: #122ab2;
+}
+
+.preco-item a{
+    /* Position */
+    text-align: center;
+
+    /* Modelo de Caixa */
+    padding: 20px;
+    max-width: 300px;
+    margin: 20px auto;
+    border: 4px solid #222222;
+    padding: 15px 0;
+
+    /* Display */
+    display: block;
+
+    /* Outros */
+    font-size: 2.25em;
+    color:#222222;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media (max-width: 800px){
+    .preco{
+        padding-right:10px;
+        padding-top: 10px;
+    }
+    .preco .preco-item:nth-child(3){
+        order: -2;
+    }
+    .preco .preco-item:nth-child(2){
+        order: -1;
+    }
+}
+
+/* Qualidade */
+
+.qualidade{
+    max-width: 960px;
+    margin: 60px auto;
     display: flex;
     flex-wrap: wrap;
 }
 
-.sobre-info{
-    flex: 2;
+.qualidade-item{
+    flex: 1 1 300px;
+    margin: 20px 10px;
+}
+
+.qualidade-item h2{
+    font-size: 2.5em;
+    color: #a4a4a4;
+    margin-bottom: 20px;
+}
+
+.qualidade-item h2::before{
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    background-color: #f9265e;
+    margin-right: 10px;
+}
+
+.qualidade-item:nth-of-type(3n+1) h2::before{
+    background: #ae81ef;
+}
+.qualidade-item:nth-of-type(3n+2) h2::before{
+    background: #f9265e;
+}
+.qualidade-item:nth-of-type(3n+3) h2::before{
+    background: #66d9eb;
+}
+
+.qualidade-item p{
+    font-size: 1.25em;
+    line-height: 1.4;
+    color: #7c7c7c;
+}
+
+/* Newsletter */
+
+.newsletter{
+    background: #f7f7f7;
+    padding: 60px calc((100% - 960px)/2);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter-info{
+    flex: 1 1 260px;
     margin: 0 10px;
 }
 
-.sobre-info h1{
+.newsletter-info h1{
     font-size: 3em;
+    color: #a4a4a4;
+}
+
+.newsletter-info p{
+    font-size: 1.5em;
+    font-style: italic;
+    max-width: 330px;
+    color: #7c7c7c;
+    margin-bottom: 10px;
+}
+
+.newsletter-form{
+    flex: 2 1 260px;
+    margin: 0 10px;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter-form input {
+    flex: 3 1 200px;
+    font-size: 1.25em;
+    color: #7c7c7c;
+    font-style: italic;
+    font-family: "Nunito", Helvetica, sans-serif;
+    border: 4px solid #2c70ff;
+    background: transparent;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 0px;
+}
+
+.newsletter-form button{
+    flex: 1 1 200px;
+    font-family: "Nunito", Helvetica, sans-serif;
+    font-size: 2.25em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #2c70ff;
+    color: white;
+    margin: 0px;
+    cursor: pointer;
+    border: 0px;
+    padding: 15px 10px;
+}
+
+@media (max-width: 600px){
+    .newsletter-form button{
+        font-size: 1.5em;
+    }
+    
+}
+/* Footer */
+
+.footer {
+    display: flex;
+    background: #2c70ff;
+    height: 200px;
+    align-items: center;
+}
+
+.footer p{
+    flex: 1;
+    text-align: center;
+    font-size: 2.25em;
+    color: #122ab2;
 }
